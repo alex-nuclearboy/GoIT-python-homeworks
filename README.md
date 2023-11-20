@@ -1,2 +1,2 @@
-# goit-python-homeworks
+# GoIT Python Course Homework Projects
 This repository contains a series of projects developed as part of the Python course homework assignments
