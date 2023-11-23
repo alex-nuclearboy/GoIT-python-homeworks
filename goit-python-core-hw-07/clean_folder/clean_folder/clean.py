@@ -109,9 +109,13 @@ def main(folder_path: str):
     print("Unknown extensions:", unknown_extensions)
 
 
-if __name__ == "__main__":
+def console_script():
     if len(sys.argv) != 2:
-        print("Usage: python sort.py <path_to_folder>")
+        print("Usage: clean_folder <path_to_folder>")
         sys.exit(1)
 
+    main(sys.argv[1])
+
+
+if __name__ == "__main__":
     main(sys.argv[1])
