@@ -1,8 +1,8 @@
 from setuptools import setup, find_namespace_packages
 
 setup(
-    name='clean_folder',
-    version='1.0',
+    name='clean-folder',
+    version='1.1',
     description='A Python utility for organizing and sorting files into categories based on file extensions',
     url='https://github.com/alex-nuclearboy/goit-python-homeworks/tree/main/goit-python-core-hw-07',
     author='Aleksander Khreptak',
@@ -10,7 +10,9 @@ setup(
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=[],
-    entry_points={'console_scripts': [
-        'clean_folder=clean_folder.clean:console_script'
-    ]}
+    entry_points={'console_scripts':
+        [
+            'clean-folder=clean_folder.clean:console_script',
+    	]
+    },
 )
